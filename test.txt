@@ -1,0 +1,21 @@
+varA,varB,N,i,temp:entiers
+varA<-0
+varB<-1
+N<-10
+
+Pour i de 1 a N faire
+	Afficher ( varA )
+	temp <- varB
+	varB <- varA + varB
+	varA <- temp
+fin pour
+
+si (Var>VarB) alors
+	varB<-VarB*2
+fin si
+
+
+
+
+
+
